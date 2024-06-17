@@ -1,0 +1,64 @@
+body{
+    margin: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif
+}
+
+.nav-container{
+    background-color: #313838;
+    width: 100%;
+    height: 50px;
+    margin: 0;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.nav-btns{
+    width: 50%;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.nav-btns>a {
+    color: white;
+    text-decoration: none;
+}
+
+.search-container{
+    background-color: white;
+    width: 40%;
+    height: 35px;
+    border-radius: 30px;
+    display: flex;
+    align-items: center;
+    padding: 0 15px;
+}
+
+.search-form{
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+}
+
+.search-input{
+    width: 60%;
+    border: none;  
+}
+
+.search-input::placeholder{
+    color: #01747A;
+}
+
+.search-input:focus-visible{
+    outline: none;
+}
+
+.search-btn{
+    background-color: #01747A;
+    color: white;
+    width: 80px;
+    height: 25px;
+    border: none;
+    border-radius: 20px;
+    cursor: pointer;
+}
