@@ -22,8 +22,8 @@
             placeholder="Enter a destination or keyword"
           />
           <div class="search-btns">
-            <button class="search-btn">Search</button>
-            <button class="search-btn">Clear</button>
+            <button class="search-btn" type="submit">Search</button>
+            <button class="search-btn" type="button" id="clear-btn">Clear</button>
           </div>
         </form>
       </div>
@@ -57,5 +57,11 @@
         </form>
       </div>
     </div>
+
+    <div class="recommendations-container">
+        <div id="recommendations"></div>
+    </div>
+    
+    <script src="/travel_recommendation.js"></script>
   </body>
 </html>

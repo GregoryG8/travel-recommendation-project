@@ -173,3 +173,54 @@ body {
     font-weight: bold;
     color: white;
   }
+
+  .recommendations-container{
+    position: absolute;
+    right: 0;
+    top: 60px;
+    width: 500px;
+    height: 500px;
+    overflow-y: auto;
+    overflow-x: hidden;
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+  }
+  
+  #recommendations{
+    width: 95%;
+  }
+  
+  #recommendations>div{
+    background-color: white;
+    border-radius: 15px;
+    margin-bottom: 40px;
+    padding: 10px;
+  }
+  
+  #recommendations>div>img{
+    border-radius: 5px;
+    width: 100%;
+  }
+  
+  #recommendations>div>h3{
+    color: #313838;
+    margin: 0;
+  }
+  
+  #recommendations>div>p{
+    margin: 0 0 10px 0;
+    color: #31383880;
+  }
+  
+  #recommendations>div>button{
+    background-color: #017578;
+    color: white;
+    font-weight: bold;
+    border: none;
+    border-radius: 10px;
+    width: 80px;
+    height: 30px;
+    cursor: pointer;
+  }
+  

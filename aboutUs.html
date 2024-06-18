@@ -15,15 +15,17 @@
       </div>
 
       <div class="search-container">
-        <form class="search-form" action="">
+        <form class="search-form">
           <input
             class="search-input"
             type="text"
             placeholder="Enter a destination or keyword"
           />
           <div class="search-btns">
-            <button class="search-btn">Search</button>
-            <button class="search-btn">Clear</button>
+            <button class="search-btn" type="submit">Search</button>
+            <button class="search-btn" type="button" id="clear-btn">
+              Clear
+            </button>
           </div>
         </form>
       </div>
@@ -41,31 +43,35 @@
       </div>
       <div class="text-about-container">
         <p>
-          Welcome! we are dedicated to helping you discover the
-          wonders of the world through personalized travel recommendations and
-          expert advice. Our team is composed of passionate travelers and
-          tourism professionals who work tirelessly to provide you with the best
-          travel experiences.
+          Welcome! we are dedicated to helping you discover the wonders of the
+          world through personalized travel recommendations and expert advice.
+          Our team is composed of passionate travelers and tourism professionals
+          who work tirelessly to provide you with the best travel experiences.
         </p>
       </div>
       <div class="our-team">
         <h1>Our Team</h1>
         <div class="card-team">
-            <h3>John Doe</h3>
-            <p>Is responsible for...</p>
-            <button>CEO</button>
+          <h3>John Doe</h3>
+          <p>Is responsible for...</p>
+          <button>CEO</button>
         </div>
         <div class="card-team">
-            <h3>Cecilia Thomas</h3>
-            <p>Is responsible for...</p>
-            <button>Team Lead</button>
+          <h3>Cecilia Thomas</h3>
+          <p>Is responsible for...</p>
+          <button>Team Lead</button>
         </div>
         <div class="card-team">
-            <h3>Mike Tysen</h3>
-            <p>Is responsible for...</p>
-            <button>Delivery Head</button>
+          <h3>Mike Tysen</h3>
+          <p>Is responsible for...</p>
+          <button>Delivery Head</button>
         </div>
       </div>
     </div>
+
+    <div class="recommendations-container">
+      <div id="recommendations"></div>
+    </div>
+    <script src="/travel_recommendation.js"></script>
   </body>
 </html>
