@@ -1,11 +1,11 @@
-document.addEventListener("DOMContentLoaded", () => {
+
   const form = document.querySelector(".search-form");
   const clearButton = document.getElementById("clear-btn");
   const recommendationsDiv = document.getElementById("recommendations");
 
   let travelData = [];
 
-  fetch("travel_recommendation_api.json")
+  fetch("./travel_recommendation_api.json")
     .then((response) => {
       if (!response.ok) {
         throw new Error("Error al obtener los datos");
@@ -108,4 +108,4 @@ document.addEventListener("DOMContentLoaded", () => {
       recommendationsDiv.appendChild(noResultsDiv);
     }
   }
-});
+
