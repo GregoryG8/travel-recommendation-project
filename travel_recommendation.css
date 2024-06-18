@@ -75,7 +75,7 @@ body {
 
 .home {
   display: grid;
-    background: linear-gradient(to right, #01747a,rgba(0, 0, 0, 0), rgba(0, 0, 0, 0));
+    background: linear-gradient(to right, #01747a, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0), rgba(0, 0, 0, 0));
   height: 580px;
   width: 100%;
   margin-top: 50px;
@@ -101,4 +101,40 @@ body {
   width: 30px;
   height: 30px;
   cursor: pointer;
+}
+
+.title-home-container{
+  grid-area: title;
+  width: 30%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+}
+
+.title-home-container>h1{
+  color: white;
+  font-size: 4rem;
+  margin-left: 20%;
+}
+
+.text-home-container{
+  grid-area: text;
+  width: 30%;
+  height: fit-content;
+}
+
+.text-home-container>p{
+  color: white;
+  margin-left: 20%;
+}
+
+.book-btn{
+  background-color: #017578;
+  color: white;
+  font-weight: bold;
+  border: none;
+  border-radius: 10px;
+  width: 120px;
+  height: 40px;
+  margin-left: 20%;
 }
